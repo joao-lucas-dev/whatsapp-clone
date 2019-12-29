@@ -12,28 +12,31 @@ body {
   -webkit-font-smoothing: antialiased !important;
 }
 
-aside#contacts {
+aside#side-contacts {
   width: 532px;
   height: 100%;
   border-right: 2px solid #1F252F;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-aside#contacts div.search {
+aside#side-contacts div.search {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px;
 }
 
-aside#contacts div.search img {
+aside#side-contacts div.search img {
   width: 56px;
   height: 56px;
   border-radius: 50%;
   margin-right: 34px;
 }
 
-aside#contacts div.search input {
+aside#side-contacts div.search input {
   width: 373px;
   height: 48px;
   border: 0;
@@ -48,18 +51,78 @@ aside#contacts div.search input {
   color: #4B505C;
 }
 
-aside#contacts div.sort {
+aside#side-contacts div.sort {
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   padding: 15px;
 }
 
-aside#contacts div.sort span {
+aside#side-contacts div.sort span {
   margin-right: 17px;
   color: #A7AAAE;
 }
 
-aside#contacts div.sort strong {
+aside#side-contacts div.sort strong {
   color: #fff;
   margin-right: 10px;
+}
+
+aside#side-contacts div.contacts ul {
+  list-style: none;
+}
+
+aside#side-contacts div.contacts ul li {
+  width: 465px;
+  height: 143px;
+  background: #2B323F;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+aside#side-contacts div.contacts ul li.active {
+  background: #2F3845;
+  border-left: 5px solid #57DF6F;
+}
+
+aside#side-contacts div.contacts ul li div.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+aside#side-contacts div.contacts ul li div.info {
+  display: flex;
+}
+
+aside#side-contacts div.contacts ul li div.info img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+aside#side-contacts div.contacts ul li div.info div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+aside#side-contacts div.contacts ul li div.info div strong {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+aside#side-contacts div.contacts ul li div.info div span {
+  color: #7F858C;
+  font-size: 14px;
+}
+
+aside#side-contacts div.contacts ul li div.top span {
+  color: #82878F;
+}
+
+aside#side-contacts div.contacts ul li div.down span {
+  color: #EBECED;
 }
