@@ -222,3 +222,49 @@ div#side-chat div.header div.buttons img.three {
   margin: 0 10px;
 }
 
+div#side-chat div.chat {
+  display: flex;
+  flex: 1;
+}
+
+div#side-chat div.chat ul {
+  list-style: none;
+}
+
+div#side-chat div.chat ul li {
+  margin: 20px 0;
+}
+
+div#side-chat div.chat ul li div.left {
+  width: 337px;
+  height: 50px;
+  background: #2F3845;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 8px;
+  color: #BEC0C5;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+div#side-chat div.chat ul li span {
+  margin-left: 5px;
+  color: #82878F;
+}
+
+div#side-chat div.chat ul li span.left {
+  margin-left: 390px;
+}
+
+div#side-chat div.chat ul li div.right {
+  width: 337px;
+  height: 50px;
+  background: #57DF6F;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 8px;
+  margin-left: 390px;
+  color: #1F252F;
+  font-weight: 500;
+  font-size: 16px;
+}
