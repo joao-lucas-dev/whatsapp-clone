@@ -47,3 +47,19 @@ aside#contacts div.search input {
 ::-webkit-input-placeholder {
   color: #4B505C;
 }
+
+aside#contacts div.sort {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+aside#contacts div.sort span {
+  margin-right: 17px;
+  color: #A7AAAE;
+}
+
+aside#contacts div.sort strong {
+  color: #fff;
+  margin-right: 10px;
+}
