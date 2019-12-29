@@ -49,7 +49,7 @@ aside#side-contacts div.search input {
 }
 
 ::-webkit-input-placeholder {
-  color: #4B505C;
+  color: #AAADB2;
 }
 
 aside#side-contacts div.sort {
@@ -253,7 +253,7 @@ div#side-chat div.chat ul li span {
 }
 
 div#side-chat div.chat ul li span.left {
-  margin-left: 390px;
+  margin-left: 570px;
 }
 
 div#side-chat div.chat ul li div.right {
@@ -267,4 +267,50 @@ div#side-chat div.chat ul li div.right {
   color: #1F252F;
   font-weight: 500;
   font-size: 16px;
+}
+
+div#side-chat div.submit-text {
+  width: 100%;
+  height: 50px;
+  background: #2F3845;
+  border-radius: 50px;
+  display: flex;
+  padding: 20px;
+}
+
+div#side-chat div.submit-text div.left {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div#side-chat div.submit-text div.left img {
+  margin-right: 20px;
+}
+
+div#side-chat div.submit-text div.left input {
+  border: 0;
+  background: transparent;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  color: #fff;
+}
+
+div#side-chat div.submit-text div.right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+div#side-chat div.submit-text div.right img {
+  margin-right: 20px;
+}
+
+div#side-chat div.submit-text div.right img:last-child {
+  margin: 0;
 }
