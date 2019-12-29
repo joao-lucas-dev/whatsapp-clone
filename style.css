@@ -11,3 +11,39 @@ body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
+
+aside#contacts {
+  width: 532px;
+  height: 100%;
+  border-right: 2px solid #1F252F;
+  padding: 15px;
+}
+
+aside#contacts div.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+aside#contacts div.search img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 34px;
+}
+
+aside#contacts div.search input {
+  width: 373px;
+  height: 48px;
+  border: 0;
+  border-radius: 30px;
+  padding: 0 15px 0 45px;
+  font-size: 16px;
+  color: #fff;
+  background: #2B323F url('./assets/search.svg') no-repeat 15px;
+}
+
+::-webkit-input-placeholder {
+  color: #4B505C;
+}
